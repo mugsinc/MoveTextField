@@ -1,0 +1,504 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FB0900C21BCD0B6B000B89E8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB0900C11BCD0B6B000B89E8 /* AppDelegate.swift */; };
+		FB0900C41BCD0B6B000B89E8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB0900C31BCD0B6B000B89E8 /* ViewController.swift */; };
+		FB0900C71BCD0B6B000B89E8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB0900C51BCD0B6B000B89E8 /* Main.storyboard */; };
+		FB0900C91BCD0B6B000B89E8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB0900C81BCD0B6B000B89E8 /* Assets.xcassets */; };
+		FB0900CC1BCD0B6B000B89E8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB0900CA1BCD0B6B000B89E8 /* LaunchScreen.storyboard */; };
+		FB0900D71BCD0B6B000B89E8 /* textScrollKeyboardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB0900D61BCD0B6B000B89E8 /* textScrollKeyboardTests.swift */; };
+		FB0900E21BCD0B6B000B89E8 /* textScrollKeyboardUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB0900E11BCD0B6B000B89E8 /* textScrollKeyboardUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FB0900D31BCD0B6B000B89E8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FB0900B61BCD0B6B000B89E8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FB0900BD1BCD0B6B000B89E8;
+			remoteInfo = textScrollKeyboard;
+		};
+		FB0900DE1BCD0B6B000B89E8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FB0900B61BCD0B6B000B89E8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FB0900BD1BCD0B6B000B89E8;
+			remoteInfo = textScrollKeyboard;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FB0900BE1BCD0B6B000B89E8 /* textScrollKeyboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = textScrollKeyboard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB0900C11BCD0B6B000B89E8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FB0900C31BCD0B6B000B89E8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FB0900C61BCD0B6B000B89E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FB0900C81BCD0B6B000B89E8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FB0900CB1BCD0B6B000B89E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FB0900CD1BCD0B6B000B89E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB0900D21BCD0B6B000B89E8 /* textScrollKeyboardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = textScrollKeyboardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB0900D61BCD0B6B000B89E8 /* textScrollKeyboardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = textScrollKeyboardTests.swift; sourceTree = "<group>"; };
+		FB0900D81BCD0B6B000B89E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB0900DD1BCD0B6B000B89E8 /* textScrollKeyboardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = textScrollKeyboardUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB0900E11BCD0B6B000B89E8 /* textScrollKeyboardUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = textScrollKeyboardUITests.swift; sourceTree = "<group>"; };
+		FB0900E31BCD0B6B000B89E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FB0900BB1BCD0B6B000B89E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB0900CF1BCD0B6B000B89E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB0900DA1BCD0B6B000B89E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FB0900B51BCD0B6B000B89E8 = {
+			isa = PBXGroup;
+			children = (
+				FB0900C01BCD0B6B000B89E8 /* textScrollKeyboard */,
+				FB0900D51BCD0B6B000B89E8 /* textScrollKeyboardTests */,
+				FB0900E01BCD0B6B000B89E8 /* textScrollKeyboardUITests */,
+				FB0900BF1BCD0B6B000B89E8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FB0900BF1BCD0B6B000B89E8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FB0900BE1BCD0B6B000B89E8 /* textScrollKeyboard.app */,
+				FB0900D21BCD0B6B000B89E8 /* textScrollKeyboardTests.xctest */,
+				FB0900DD1BCD0B6B000B89E8 /* textScrollKeyboardUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FB0900C01BCD0B6B000B89E8 /* textScrollKeyboard */ = {
+			isa = PBXGroup;
+			children = (
+				FB0900C11BCD0B6B000B89E8 /* AppDelegate.swift */,
+				FB0900C31BCD0B6B000B89E8 /* ViewController.swift */,
+				FB0900C51BCD0B6B000B89E8 /* Main.storyboard */,
+				FB0900C81BCD0B6B000B89E8 /* Assets.xcassets */,
+				FB0900CA1BCD0B6B000B89E8 /* LaunchScreen.storyboard */,
+				FB0900CD1BCD0B6B000B89E8 /* Info.plist */,
+			);
+			path = textScrollKeyboard;
+			sourceTree = "<group>";
+		};
+		FB0900D51BCD0B6B000B89E8 /* textScrollKeyboardTests */ = {
+			isa = PBXGroup;
+			children = (
+				FB0900D61BCD0B6B000B89E8 /* textScrollKeyboardTests.swift */,
+				FB0900D81BCD0B6B000B89E8 /* Info.plist */,
+			);
+			path = textScrollKeyboardTests;
+			sourceTree = "<group>";
+		};
+		FB0900E01BCD0B6B000B89E8 /* textScrollKeyboardUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FB0900E11BCD0B6B000B89E8 /* textScrollKeyboardUITests.swift */,
+				FB0900E31BCD0B6B000B89E8 /* Info.plist */,
+			);
+			path = textScrollKeyboardUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FB0900BD1BCD0B6B000B89E8 /* textScrollKeyboard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB0900E61BCD0B6B000B89E8 /* Build configuration list for PBXNativeTarget "textScrollKeyboard" */;
+			buildPhases = (
+				FB0900BA1BCD0B6B000B89E8 /* Sources */,
+				FB0900BB1BCD0B6B000B89E8 /* Frameworks */,
+				FB0900BC1BCD0B6B000B89E8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = textScrollKeyboard;
+			productName = textScrollKeyboard;
+			productReference = FB0900BE1BCD0B6B000B89E8 /* textScrollKeyboard.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FB0900D11BCD0B6B000B89E8 /* textScrollKeyboardTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB0900E91BCD0B6B000B89E8 /* Build configuration list for PBXNativeTarget "textScrollKeyboardTests" */;
+			buildPhases = (
+				FB0900CE1BCD0B6B000B89E8 /* Sources */,
+				FB0900CF1BCD0B6B000B89E8 /* Frameworks */,
+				FB0900D01BCD0B6B000B89E8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FB0900D41BCD0B6B000B89E8 /* PBXTargetDependency */,
+			);
+			name = textScrollKeyboardTests;
+			productName = textScrollKeyboardTests;
+			productReference = FB0900D21BCD0B6B000B89E8 /* textScrollKeyboardTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FB0900DC1BCD0B6B000B89E8 /* textScrollKeyboardUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB0900EC1BCD0B6B000B89E8 /* Build configuration list for PBXNativeTarget "textScrollKeyboardUITests" */;
+			buildPhases = (
+				FB0900D91BCD0B6B000B89E8 /* Sources */,
+				FB0900DA1BCD0B6B000B89E8 /* Frameworks */,
+				FB0900DB1BCD0B6B000B89E8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FB0900DF1BCD0B6B000B89E8 /* PBXTargetDependency */,
+			);
+			name = textScrollKeyboardUITests;
+			productName = textScrollKeyboardUITests;
+			productReference = FB0900DD1BCD0B6B000B89E8 /* textScrollKeyboardUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FB0900B61BCD0B6B000B89E8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "230 Interactive";
+				TargetAttributes = {
+					FB0900BD1BCD0B6B000B89E8 = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+					FB0900D11BCD0B6B000B89E8 = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = FB0900BD1BCD0B6B000B89E8;
+					};
+					FB0900DC1BCD0B6B000B89E8 = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = FB0900BD1BCD0B6B000B89E8;
+					};
+				};
+			};
+			buildConfigurationList = FB0900B91BCD0B6B000B89E8 /* Build configuration list for PBXProject "textScrollKeyboard" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FB0900B51BCD0B6B000B89E8;
+			productRefGroup = FB0900BF1BCD0B6B000B89E8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FB0900BD1BCD0B6B000B89E8 /* textScrollKeyboard */,
+				FB0900D11BCD0B6B000B89E8 /* textScrollKeyboardTests */,
+				FB0900DC1BCD0B6B000B89E8 /* textScrollKeyboardUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FB0900BC1BCD0B6B000B89E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB0900CC1BCD0B6B000B89E8 /* LaunchScreen.storyboard in Resources */,
+				FB0900C91BCD0B6B000B89E8 /* Assets.xcassets in Resources */,
+				FB0900C71BCD0B6B000B89E8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB0900D01BCD0B6B000B89E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB0900DB1BCD0B6B000B89E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FB0900BA1BCD0B6B000B89E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB0900C41BCD0B6B000B89E8 /* ViewController.swift in Sources */,
+				FB0900C21BCD0B6B000B89E8 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB0900CE1BCD0B6B000B89E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB0900D71BCD0B6B000B89E8 /* textScrollKeyboardTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB0900D91BCD0B6B000B89E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB0900E21BCD0B6B000B89E8 /* textScrollKeyboardUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FB0900D41BCD0B6B000B89E8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FB0900BD1BCD0B6B000B89E8 /* textScrollKeyboard */;
+			targetProxy = FB0900D31BCD0B6B000B89E8 /* PBXContainerItemProxy */;
+		};
+		FB0900DF1BCD0B6B000B89E8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FB0900BD1BCD0B6B000B89E8 /* textScrollKeyboard */;
+			targetProxy = FB0900DE1BCD0B6B000B89E8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FB0900C51BCD0B6B000B89E8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FB0900C61BCD0B6B000B89E8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FB0900CA1BCD0B6B000B89E8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FB0900CB1BCD0B6B000B89E8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FB0900E41BCD0B6B000B89E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FB0900E51BCD0B6B000B89E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FB0900E71BCD0B6B000B89E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = textScrollKeyboard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.230i.textScrollKeyboard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FB0900E81BCD0B6B000B89E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = textScrollKeyboard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.230i.textScrollKeyboard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FB0900EA1BCD0B6B000B89E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = textScrollKeyboardTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.230i.textScrollKeyboardTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/textScrollKeyboard.app/textScrollKeyboard";
+			};
+			name = Debug;
+		};
+		FB0900EB1BCD0B6B000B89E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = textScrollKeyboardTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.230i.textScrollKeyboardTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/textScrollKeyboard.app/textScrollKeyboard";
+			};
+			name = Release;
+		};
+		FB0900ED1BCD0B6B000B89E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = textScrollKeyboardUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.230i.textScrollKeyboardUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = textScrollKeyboard;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		FB0900EE1BCD0B6B000B89E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = textScrollKeyboardUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.230i.textScrollKeyboardUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = textScrollKeyboard;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FB0900B91BCD0B6B000B89E8 /* Build configuration list for PBXProject "textScrollKeyboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB0900E41BCD0B6B000B89E8 /* Debug */,
+				FB0900E51BCD0B6B000B89E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB0900E61BCD0B6B000B89E8 /* Build configuration list for PBXNativeTarget "textScrollKeyboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB0900E71BCD0B6B000B89E8 /* Debug */,
+				FB0900E81BCD0B6B000B89E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FB0900E91BCD0B6B000B89E8 /* Build configuration list for PBXNativeTarget "textScrollKeyboardTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB0900EA1BCD0B6B000B89E8 /* Debug */,
+				FB0900EB1BCD0B6B000B89E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FB0900EC1BCD0B6B000B89E8 /* Build configuration list for PBXNativeTarget "textScrollKeyboardUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB0900ED1BCD0B6B000B89E8 /* Debug */,
+				FB0900EE1BCD0B6B000B89E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FB0900B61BCD0B6B000B89E8 /* Project object */;
+}
